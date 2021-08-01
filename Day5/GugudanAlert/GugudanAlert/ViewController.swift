@@ -64,6 +64,7 @@ class ViewController: UIViewController {
     }
     
     func answerCollect() {
+        tfInputNum.text = ""
         let resultAlert = UIAlertController(title: "결과", message: "정답입니다! 1점을 얻습니다.", preferredStyle: .alert)
         resultAlert.addAction(UIAlertAction(title: "다음 문제 진행", style: .default, handler: nil))
         
@@ -74,6 +75,8 @@ class ViewController: UIViewController {
     }
     
     func answerInCollect() {
+        
+        tfInputNum.text = ""
         let resultAlert = UIAlertController(title: "결과", message: "틀렸습니다...", preferredStyle: .alert)
         resultAlert.addAction(UIAlertAction(title: "네...", style: .default, handler: nil))
         
