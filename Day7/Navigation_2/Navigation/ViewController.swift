@@ -48,13 +48,9 @@ class ViewController: UIViewController {
         editViewController.delegate = self
         // prepare를 통해 주고 받을 때, delegate에게 권한을 넘겨준다.
         editViewController.isOn = isOn
-        
     }
 
-
 } // ViewController
-
-
 
 extension ViewController: EditDelegate{
 

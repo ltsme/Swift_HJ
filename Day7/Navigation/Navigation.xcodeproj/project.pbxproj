@@ -63,12 +63,12 @@
 				DC9883C426A933C400DE0C72 /* AppDelegate.swift */,
 				DC9883C626A933C400DE0C72 /* SceneDelegate.swift */,
 				DC9883C826A933C400DE0C72 /* ViewController.swift */,
+				DC9883D826A9367A00DE0C72 /* EditViewController.swift */,
 				DC9883CA26A933C400DE0C72 /* Main.storyboard */,
+				DC9883DA26A9430000DE0C72 /* EditDelegate.swift */,
 				DC9883CD26A933C500DE0C72 /* Assets.xcassets */,
 				DC9883CF26A933C500DE0C72 /* LaunchScreen.storyboard */,
 				DC9883D226A933C500DE0C72 /* Info.plist */,
-				DC9883D826A9367A00DE0C72 /* EditViewController.swift */,
-				DC9883DA26A9430000DE0C72 /* EditDelegate.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";

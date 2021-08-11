@@ -51,7 +51,7 @@ class EditViewController: UIViewController {
             isOn = true
             lblOnOff.text = "On"
         }else {
-            isOn = true
+            isOn = false
             lblOnOff.text = "Off"
         }
     }
